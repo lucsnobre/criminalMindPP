@@ -1,0 +1,7 @@
+# Formato: ID|Título|Descrição|Vítima|Local|Dificuldade
+
+C001|O Mistério do Apartamento 42|Um corpo foi encontrado em um apartamento de luxo. A vítima parece ter sido envenenada.|Carlos Mendes|Apartamento 42, Edifício Solar|3
+C002|A Última Festa|Durante uma festa na mansão dos Silva, um convidado foi encontrado morto na biblioteca.|Ana Beatriz|Mansão Silva|4
+C003|O Segredo do Escritório|Um executivo foi encontrado morto em seu escritório após o expediente.|Roberto Almeida|Escritório Central|5
+C004|A Herança Maldita|Um herdeiro foi encontrado morto na casa da família, logo após a leitura do testamento.|Pedro Santos|Mansão Santos|4
+C005|O Mistério do Hotel|Um hóspede foi encontrado morto em seu quarto de hotel.|Maria Oliveira|Hotel Luxo|3 

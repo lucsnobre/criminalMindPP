@@ -1,0 +1,7 @@
+# Formato: Nome|Idade|Profissão|Personalidade|Histórico|Frases
+
+João Silva|35|Vizinho|Calmo|Histórico limpo|"Estava em casa naquele momento."|"Não ouvi nada suspeito."|"Sempre fui um bom vizinho."
+Maria Santos|28|Ex-namorada|Nervosa|Histórico de agressão|"Não tenho nada a ver com isso!"|"Ele mereceu o que aconteceu."|"Estava em outro lugar."
+Pedro Oliveira|45|Colega de trabalho|Reservado|Histórico limpo|"Trabalhamos juntos há anos."|"Não sei de nada."|"Ele era um bom profissional."
+Ana Beatriz|32|Irmã da vítima|Emocional|Histórico limpo|"Meu irmão não merecia isso!"|"Estou devastada."|"Preciso de um tempo."
+Carlos Mendes|40|Porteiro|Observador|Histórico limpo|"Vi algo estranho naquele dia."|"Não deixo passar nada."|"Tenho que ser discreto." 

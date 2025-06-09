@@ -1,0 +1,12 @@
+# Formato: Descrição|Relevância|Local|Tipo|Relacionada a
+
+Pegadas na cena do crime|7|Sala de estar|Física|Maria Santos
+Carteira da vítima|5|Bolso do casaco|Física|
+Mensagem ameaçadora|8|Celular da vítima|Digital|Maria Santos
+Copo com resíduos|9|Cozinha|Física|João Silva
+Fio de cabelo|6|Sofá|Física|Ana Beatriz
+Impressão digital|8|Maçaneta|Física|Pedro Oliveira
+Recibo de compra|4|Lixeira|Digital|Carlos Mendes
+Mancha de sangue|10|Tapete|Física|
+Nota de dinheiro|3|Gaveta|Física|
+Fotografia rasgada|7|Mesa|Física|Maria Santos 
