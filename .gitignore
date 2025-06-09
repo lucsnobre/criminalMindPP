@@ -1,0 +1,37 @@
+# Diretórios de build
+build/
+bin/
+lib/
+
+# Arquivos de IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos de compilação
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de debug
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de dados gerados
+casos_exportados/
+*.save
+achievements.txt 
