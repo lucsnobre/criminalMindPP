@@ -2,10 +2,12 @@
 
 #include "Suspeito.hpp"
 #include "Pista.hpp"
+#include "Engine.hpp"
 #include <vector>
 #include <string>
 #include <memory>
 #include <fstream>
+#include <chrono>
 
 class Game {
 private:
@@ -15,6 +17,7 @@ private:
     bool jogoEmAndamento;
     int reputacao;
     std::string nomeDetetive;
+    std::unique_ptr<Engine> engine;
     
     // Métodos privados
     void carregarCaso();
@@ -27,6 +30,9 @@ private:
     void analisarPistas();
     void fazerAcusacao();
     void mostrarEstatisticas();
+    void mostrarTempoRestante();
+    void atualizarTempo();
+    void mostrarDica();
 
 public:
     Game();

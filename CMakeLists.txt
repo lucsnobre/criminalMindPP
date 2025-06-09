@@ -11,6 +11,7 @@ set(SOURCES
     Game.cpp
     Suspeito.cpp
     Pista.cpp
+    Engine.cpp
 )
 
 # Adicionar todos os arquivos de cabeçalho
@@ -18,6 +19,7 @@ set(HEADERS
     Game.hpp
     Suspeito.hpp
     Pista.hpp
+    Engine.hpp
     utils.hpp
 )
 
@@ -32,4 +34,8 @@ else()
 endif()
 
 # Configurar diretório de saída
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin) 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Copiar arquivos de dados e sons para o diretório de saída
+file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+file(COPY ${CMAKE_SOURCE_DIR}/sounds DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}) 
