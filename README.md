@@ -1,130 +1,129 @@
 # CriminalMind++
 
-Um jogo de simulação de investigação policial em texto, desenvolvido em C++ moderno.
+Bem-vindo ao CriminalMind++, um jogo de simulação de investigação policial em texto desenvolvido em C++ moderno. Aqui você poderá viver a experiência de ser um detetive, resolvendo casos intrigantes e desvendando mistérios.
 
-## Funcionalidades
+## O que você encontrará aqui
 
-- Sistema de casos com histórias únicas
-- Interação com suspeitos e coleta de pistas
-- Sistema de reputação
-- Sistema de tempo
-- Sistema de som
-- Sistema de conquistas
-- Editor de casos personalizado
-- Interface colorida no terminal
-- Sistema de salvamento
+- Histórias envolventes com casos únicos para investigar
+- Personagens interessantes para interagir e interrogar
+- Um sistema de pistas e evidências para coletar e analisar
+- Sistema de reputação que afeta suas interações
+- Gerenciamento de tempo para dar mais emoção às investigações
+- Trilha sonora e efeitos sonoros para imersão
+- Sistema de conquistas para registrar seus feitos
+- Ferramenta para criar seus próprios casos
+- Interface colorida e intuitiva
+- Sistema de salvamento para continuar suas investigações depois
 
-## Requisitos
+## O que você precisa para começar
 
-- Compilador C++17 ou superior
-- CMake 3.10 ou superior
-- Sistema operacional compatível com ANSI colors
+- Um compilador C++ que suporte C++17 ou versão mais recente
+- CMake versão 3.10 ou superior
+- Um terminal que suporte cores ANSI
 
-## Compilação
+## Como começar a jogar
 
+1. Primeiro, vamos preparar o ambiente. Abra seu terminal e execute:
 ```bash
-# Criar diretório de build
 mkdir build
 cd build
-
-# Configurar projeto
 cmake ..
-
-# Compilar
 cmake --build .
 ```
 
-## Execução
-
+2. Agora é só executar o jogo:
 ```bash
-# No diretório build
 ./CriminalMindPP
 ```
 
-## Estrutura do Projeto
+## Como o projeto está organizado
 
 ```
 CriminalMind++/
-├── data/
-│   ├── casos.txt
-│   ├── suspeitos_base.txt
-│   └── pistas_base.txt
-├── sounds/
-│   ├── menu.wav
-│   ├── investigacao.wav
-│   ├── interrogatorio.wav
-│   ├── descoberta.wav
-│   └── acusacao.wav
-├── casos_exportados/
-├── src/
-│   ├── Game.hpp
+├── data/                  # Arquivos de dados do jogo
+│   ├── casos.txt         # Casos predefinidos
+│   ├── suspeitos_base.txt # Perfis de suspeitos
+│   └── pistas_base.txt   # Pistas disponíveis
+├── sounds/               # Arquivos de áudio
+│   ├── menu.wav         # Música do menu
+│   ├── investigacao.wav # Música de investigação
+│   ├── interrogatorio.wav # Música de interrogatório
+│   ├── descoberta.wav   # Som de descoberta
+│   └── acusacao.wav     # Som de acusação
+├── casos_exportados/     # Casos criados por você
+├── src/                  # Código fonte
+│   ├── Game.hpp         # Gerenciamento do jogo
 │   ├── Game.cpp
-│   ├── Suspeito.hpp
+│   ├── Suspeito.hpp     # Sistema de suspeitos
 │   ├── Suspeito.cpp
-│   ├── Pista.hpp
+│   ├── Pista.hpp        # Sistema de pistas
 │   ├── Pista.cpp
-│   ├── Engine.hpp
+│   ├── Engine.hpp       # Motor do jogo
 │   ├── Engine.cpp
-│   ├── Achievement.hpp
+│   ├── Achievement.hpp  # Sistema de conquistas
 │   ├── Achievement.cpp
-│   ├── CaseEditor.hpp
+│   ├── CaseEditor.hpp   # Editor de casos
 │   ├── CaseEditor.cpp
-│   └── utils.hpp
-├── main.cpp
-├── CMakeLists.txt
-└── README.md
+│   └── utils.hpp        # Funções utilitárias
+├── main.cpp             # Ponto de entrada
+├── CMakeLists.txt       # Configuração de build
+└── README.md            # Este arquivo
 ```
 
-## Novas Funcionalidades
+## Recursos que você vai encontrar
 
 ### Sistema de Conquistas
-
 - Desbloqueie conquistas ao completar objetivos específicos
 - Ganhe pontos por cada conquista desbloqueada
 - Conquistas incluem:
-  - Primeiro Caso
-  - Detetive Perfeito
-  - Velocista
-  - Interrogador
-  - Colecionador
+  - Primeiro Caso: Complete seu primeiro caso
+  - Detetive Perfeito: Resolva um caso sem erros
+  - Velocista: Resolva um caso antes do tempo
+  - Interrogador: Extraia informações importantes de suspeitos
+  - Colecionador: Colete todas as pistas de um caso
 
 ### Editor de Casos
-
-- Crie seus próprios casos de investigação
+- Crie suas próprias histórias de investigação
 - Edite casos existentes
-- Exporte e importe casos
-- Validação automática de casos
-- Interface intuitiva para edição
+- Exporte e importe seus casos
+- Validação automática para garantir que seu caso é jogável
+- Interface amigável para edição
 
 ### Sistema de Tempo
-
-- Cada caso tem um limite de tempo
-- Gerenciamento de tempo por ação
-- Penalidades por exceder o tempo
-- Bônus por resolver casos rapidamente
+- Cada caso tem seu próprio limite de tempo
+- O tempo passa conforme você toma ações
+- Cuidado com as penalidades por exceder o tempo
+- Ganhe bônus por resolver casos rapidamente
 
 ### Sistema de Som
+- Músicas que mudam conforme o contexto
+- Efeitos sonoros para cada ação
+- Músicas em loop para manter a atmosfera
+- Ajuste o volume como preferir
 
-- Músicas de fundo por contexto
-- Efeitos sonoros para ações
-- Sistema de loop para músicas
-- Controle de volume
+## Como jogar
 
-## Como Jogar
-
-1. Inicie o jogo
-2. Escolha entre:
-   - Iniciar um novo caso
-   - Acessar o editor de casos
+1. Ao iniciar o jogo, você terá três opções:
+   - Começar uma nova investigação
+   - Criar ou editar casos
    - Ver suas conquistas
-3. Durante o jogo:
-   - Colete pistas
-   - Interrogue suspeitos
-   - Analise evidências
-   - Faça acusações
-4. Gerencie seu tempo e reputação
 
-## Contribuindo
+2. Durante o jogo, você poderá:
+   - Explorar a cena do crime
+   - Conversar com suspeitos
+   - Analisar pistas coletadas
+   - Fazer acusações
+   - Salvar seu progresso
+
+3. Lembre-se:
+   - Gerencie bem seu tempo
+   - Mantenha sua reputação alta
+   - Colete todas as pistas possíveis
+   - Escolha suas palavras com cuidado
+
+## Quer contribuir?
+
+Adoraríamos ter sua ajuda! Para contribuir:
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
@@ -138,37 +137,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 
 ## Créditos
 
-Desenvolvido como um projeto de demonstração de C++ moderno e boas práticas de programação.
-
-## Descrição
-
-CriminalMind++ é um jogo de texto interativo onde você assume o papel de um detetive que precisa resolver casos de assassinato. O jogo apresenta:
-
-- Investigação de cenas de crime
-- Interrogatório de suspeitos
-- Coleta e análise de pistas
-- Sistema de reputação
-- Salvamento de progresso
-- Interface colorida no terminal
-
-## Estrutura do Projeto
-
-```
-/CriminalMind++
-│
-├── main.cpp              # Ponto de entrada do programa
-├── Game.hpp/cpp         # Lógica principal do jogo
-├── Suspeito.hpp/cpp     # Classe de suspeitos
-├── Pista.hpp/cpp        # Classe de pistas
-├── utils.hpp           # Funções auxiliares
-├── CMakeLists.txt      # Configuração de compilação
-└── README.md           # Este arquivo
-```
-
-## Contribuindo
-
-Sinta-se à vontade para contribuir com o projeto através de pull requests ou reportando issues.
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+CriminalMind++ foi desenvolvido como um projeto de demonstração de C++ moderno e boas práticas de programação. Esperamos que você se divirta tanto jogando quanto nós nos divertimos desenvolvendo!
